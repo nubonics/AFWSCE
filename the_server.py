@@ -56,7 +56,7 @@ async def reverse_proxy():
 
 
 async def main():
-    # Run the server as a task, so that if need-be, we can run other async programs in parallel to this server
+    # Run the server as a task, so that if need-be, we can run other async functions in parallel to this server
     tasks = list()
     tasks.append(asyncio.create_task(reverse_proxy()))
     await asyncio.gather(*tasks)
