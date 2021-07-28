@@ -1,2 +1,2 @@
 # AFWSCE
-Asynchronous fastapi websocket server and client example
+Asynchronous fastapi websocket server and client WITHOUT a browser, example
